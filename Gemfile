@@ -1,4 +1,4 @@
 gem 'require_all'
-gem 'webmock'
-gem 'rspec'
+gem 'webmock' , groups: [:test, :development]
+gem 'rspec' , groups: [:test, :development]
 

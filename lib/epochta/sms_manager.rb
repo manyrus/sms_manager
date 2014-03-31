@@ -1,4 +1,3 @@
-require_relative 'base_manager'
 
 module SmsManager
   module Epochta
@@ -28,6 +27,10 @@ module SmsManager
 
         sms.cost = result['result']['price']
         sms
+      end
+
+      def get_cost(sms)
+        update_cost!(sms).cost
       end
     end
   end

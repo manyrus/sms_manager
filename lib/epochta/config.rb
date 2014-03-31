@@ -1,4 +1,3 @@
-require_relative '../core/client'
 
 module SmsManager
   module Epochta

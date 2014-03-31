@@ -1,5 +1,5 @@
 require 'webmock/rspec'
-require File.dirname(__FILE__) + '/../spec_helper.rb'
+require 'test/spec_helper'
 
 class RequestHelper
   class << self
