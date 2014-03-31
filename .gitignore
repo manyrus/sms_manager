@@ -1,2 +1,3 @@
 main.rb
-coverage/.last_run.json
+coverage
+.idea
